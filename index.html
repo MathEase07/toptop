@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,8 +33,30 @@
     </style>
 </head>
 <body>
-    <div class="image-container">
-    <!-- 40 images from 30.png to 69.png -->
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1ehg1AWa9uQuGAV1MqlZvQPkBI1Ot55Fq/preview"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+        </div>
+        <div class="image-container">
+        <!-- 40 images from 30.png to 69.png -->
+</style>
+    <style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100vw;
+            margin-bottom: 18px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: 0;
+        }
+    </style>
 
     <img src="https://github.com/MathEase07/Topics/blob/main/34.png?raw=true" alt="34">
     <img src="https://github.com/MathEase07/Topics/blob/main/35.png?raw=true" alt="35">
